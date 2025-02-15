@@ -1,0 +1,85 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprende Español con Tu Profesora</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="Logo Aprende Español" class="logo">
+        <h1 id="title" data-translate="title">Aprende Español</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio" data-translate="inicio">Inicio</a></li>
+                <li><a href="#biografia" data-translate="biografia">Sobre Mí</a></li>
+                <li><a href="#servicios" data-translate="servicios">Clases</a></li>
+                <li><a href="#contacto" data-translate="contacto">Contacto</a></li>
+            </ul>
+        </nav>
+        <select id="language-selector">
+            <option value="es">Español</option>
+            <option value="en">English</option>
+            <option value="de">Deutsch</option>
+        </select>
+    </header>
+    
+    <section id="inicio">
+        <h2 data-translate="mejora">Aprende Español de Forma Personalizada</h2>
+        <p id="descripcion" data-translate="descripcion">
+            Descubre un método efectivo y adaptado a tu nivel para mejorar tu español.
+            Ya seas principiante o avanzado, te ayudaré a desarrollar habilidades lingüísticas con clases dinámicas y personalizadas.
+        </p>
+        <img src="images/spanish-class.jpg" alt="Clases de español" class="main-image">
+    </section>
+    
+    <section id="biografia">
+        <h2 data-translate="biografia">Sobre Mí</h2>
+        <p id="biografia_texto" data-translate="biografia_texto">
+            Soy profesora certificada de español con más de 5 años de experiencia internacional. He trabajado en Argentina, Nueva Zelanda, China y actualmente en Alemania. He impartido clases en institutos de español en Alemania, además de ser tutora de español online, tanto en plataformas como de manera independiente. 
+            Mi formación incluye certificaciones del prestigioso Instituto Cervantes. 
+            Además de mi experiencia en español, me dedico a la docencia desde hace 20 años, enseñando materias como Biología, Ciencias Naturales y Química. 
+            Mi enfoque de enseñanza está basado en la personalización y adaptabilidad para cada estudiante, brindando clases dinámicas y efectivas.
+        </p>
+        <img src="images/spanish-teacher.jpg" alt="Profesora de español" class="main-image">
+    </section>
+    
+    <section id="servicios">
+        <h2 data-translate="servicios">Clases</h2>
+        <p>✅ <strong data-translate="clase_individual">Clases individuales</strong><br>
+        🔹 <span data-translate="clase_individual_desc">Adaptadas a tus necesidades y ritmo de aprendizaje.</span></p>
+        
+        <p>✅ <strong data-translate="clase_grupal">Clases en grupo</strong><br>
+        🔹 <span data-translate="clase_grupal_desc">Aprende español en un ambiente social y participativo.</span></p>
+        
+        <p>✅ <strong data-translate="conversacion">Clases de conversación</strong><br>
+        🔹 <span data-translate="conversacion_desc">Mejora tu fluidez con diálogos reales y prácticos.</span></p>
+    </section>
+    
+    
+    <section id="contacto">
+        <h2 data-translate="consulta">Consultas</h2>
+        <form id="consulta-form" action="https://formspree.io/f/mpwqyypq" method="POST">
+            <label for="nombre" data-translate="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            
+            <label for="email" data-translate="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="mensaje" data-translate="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+            
+            <button type="submit" data-translate="enviar">Enviar</button>
+        </form>
+        <p><span data-translate="correo">Contacto:</span> <a href="mailto:spanishwithceles@gmail.com">spanishwithceles@gmail.com</a></p>
+    </section>
+    
+
+    <footer>
+        <p data-translate="derechos">© 2025 Aprende Español</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,103 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+/* Encabezado */
+header {
+    background-color: #004d40;
+    color: white;
+    padding: 20px;
+}
+
+.logo {
+    width: 120px;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+
+/* Secciones */
+section {
+    background: white;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Navegación */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* Selector de idioma */
+#language-selector {
+    margin-top: 10px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+/* Imágenes */
+.main-image {
+    width: 60%;
+    max-width: 400px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+/* Botón de formulario */
+button {
+    background-color: #004d40;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #00695c;
+}
+
+/* Formulario */
+form {
+    text-align: left;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Pie de página */
+footer {
+    background-color: #004d40;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
