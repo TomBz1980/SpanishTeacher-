@@ -67,8 +67,6 @@ const translations = {
     }
 };
 
-
-
 function loadLanguage(lang) {
     if (!translations[lang]) lang = "es";  // Si el idioma no existe, por defecto español
     document.querySelectorAll("[data-translate]").forEach(element => {
