@@ -19,7 +19,9 @@ const translations = {
         clase_grupal: "Clases en grupo",
         clase_grupal_desc: "Aprende español en un ambiente social y participativo.",
         conversacion: "Clases de conversación",
-        conversacion_desc: "Mejora tu fluidez con diálogos reales y prácticos."
+        conversacion_desc: "Mejora tu fluidez con diálogos reales y prácticos.",
+        biografia: "Sobre Mí",
+        biografia_texto: "Soy profesora certificada de español con más de 5 años de experiencia internacional. He trabajado en Argentina, Nueva Zelanda, China y actualmente en Alemania. He impartido clases en institutos de español en Alemania, además de ser tutora de español online, tanto en plataformas como de manera independiente. Mi formación incluye certificaciones del prestigioso Instituto Cervantes. Además de mi experiencia en español, me dedico a la docencia desde hace 20 años, enseñando materias como Biología, Ciencias Naturales y Química. Mi enfoque de enseñanza está basado en la personalización y adaptabilidad para cada estudiante, brindando clases dinámicas y efectivas."
     },
     en: {
         title: "Learn Spanish with Your Teacher",
@@ -41,7 +43,9 @@ const translations = {
         clase_grupal: "Group Lessons",
         clase_grupal_desc: "Learn Spanish in a social and participatory environment.",
         conversacion: "Conversation Classes",
-        conversacion_desc: "Improve your fluency with real-life, practical dialogues."
+        conversacion_desc: "Improve your fluency with real-life, practical dialogues.",
+        biografia: "About Me",
+        biografia_texto: "I am a certified Spanish teacher with more than 5 years of international experience. I have worked in Argentina, New Zealand, China, and currently in Germany. I have taught at Spanish institutes in Germany, as well as being an online Spanish tutor both on platforms and independently. My training includes certifications from the prestigious Instituto Cervantes. In addition to my Spanish experience, I have been teaching for 20 years, covering subjects like Biology, Natural Sciences, and Chemistry. My teaching approach is based on personalization and adaptability to each student, offering dynamic and effective lessons."
     },
     de: {
         title: "Lerne Spanisch mit deiner Lehrerin",
@@ -63,9 +67,13 @@ const translations = {
         clase_grupal: "Gruppenunterricht",
         clase_grupal_desc: "Lerne Spanisch in einer sozialen und aktiven Umgebung.",
         conversacion: "Konversationskurse",
-        conversacion_desc: "Verbessere deine Flüssigkeit mit realen, praktischen Dialogen."
+        conversacion_desc: "Verbessere deine Flüssigkeit mit realen, praktischen Dialogen.",
+        biografia: "Über mich",
+        biografia_texto: "Ich bin eine zertifizierte Spanischlehrerin mit mehr als 5 Jahren internationaler Erfahrung. Ich habe in Argentinien, Neuseeland, China und aktuell in Deutschland gearbeitet. Ich habe an Spanischinstituten in Deutschland unterrichtet und bin zudem Online-Spanisch-Tutorin, sowohl auf Plattformen als auch selbstständig. Meine Ausbildung umfasst Zertifikate des angesehenen Instituto Cervantes. Neben meiner Erfahrung in Spanisch unterrichte ich seit 20 Jahren, in Fächern wie Biologie, Naturwissenschaften und Chemie. Mein Lehransatz basiert auf der Personalisierung und Anpassungsfähigkeit für jeden Studenten, wobei ich dynamischen und effektiven Unterricht biete."
     }
 };
+
+
 
 function loadLanguage(lang) {
     if (!translations[lang]) lang = "es";  // Si el idioma no existe, por defecto español
