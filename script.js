@@ -21,7 +21,12 @@ const translations = {
         conversacion: "Clases de conversación",
         conversacion_desc: "Mejora tu fluidez con diálogos reales y prácticos.",
         biografia: "Sobre Mí",
-        biografia_texto: "Soy profesora certificada de español con más de 5 años de experiencia internacional. He trabajado en Argentina, Nueva Zelanda, China y actualmente en Alemania. He impartido clases en institutos de español en Alemania, además de ser tutora de español online, tanto en plataformas como de manera independiente. Mi formación incluye certificaciones del prestigioso Instituto Cervantes. Además de mi experiencia en español, me dedico a la docencia desde hace 20 años, enseñando materias como Biología, Ciencias Naturales y Química. Mi enfoque de enseñanza está basado en la personalización y adaptabilidad para cada estudiante, brindando clases dinámicas y efectivas."
+        biografia_texto: "Soy profesora certificada de español con más de 5 años de experiencia internacional. He trabajado en Argentina, Nueva Zelanda, China y actualmente en Alemania. He impartido clases en institutos de español en Alemania, además de ser tutora de español online, tanto en plataformas como de manera independiente. Mi formación incluye certificaciones del prestigioso Instituto Cervantes. Además de mi experiencia en español, me dedico a la docencia desde hace 20 años, enseñando materias como Biología, Ciencias Naturales y Química. Mi enfoque de enseñanza está basado en la personalización y adaptabilidad para cada estudiante, brindando clases dinámicas y efectivas.",
+        politica_privacidad: "Política de Privacidad",
+        politica_privacidad_texto: "Este sitio web recopila información personal a través del formulario de contacto con el único propósito de responder consultas y brindar información sobre los servicios ofrecidos. Los datos proporcionados no serán compartidos con terceros ni utilizados con fines comerciales sin el consentimiento previo del usuario.",
+        derechos_autor: "Derechos de Autor",
+        derechos_autor_texto: "Todo el contenido de este sitio web, incluyendo textos, imágenes, logotipos y materiales didácticos, es propiedad de 'Aprende Español' y está protegido por las leyes de derechos de autor. Queda prohibida la reproducción, distribución o modificación de cualquier contenido sin el consentimiento expreso de la autora.",
+        contacto_derechos: "Para más información, puedes contactarnos en:"
     },
     en: {
         title: "Learn Spanish with Your Teacher",
@@ -45,7 +50,12 @@ const translations = {
         conversacion: "Conversation Classes",
         conversacion_desc: "Improve your fluency with real-life, practical dialogues.",
         biografia: "About Me",
-        biografia_texto: "I am a certified Spanish teacher with more than 5 years of international experience. I have worked in Argentina, New Zealand, China, and currently in Germany. I have taught at Spanish institutes in Germany, as well as being an online Spanish tutor both on platforms and independently. My training includes certifications from the prestigious Instituto Cervantes. In addition to my Spanish experience, I have been teaching for 20 years, covering subjects like Biology, Natural Sciences, and Chemistry. My teaching approach is based on personalization and adaptability to each student, offering dynamic and effective lessons."
+        biografia_texto: "I am a certified Spanish teacher with more than 5 years of international experience. I have worked in Argentina, New Zealand, China, and currently in Germany. I have taught at Spanish institutes in Germany, as well as being an online Spanish tutor both on platforms and independently. My training includes certifications from the prestigious Instituto Cervantes. In addition to my Spanish experience, I have been teaching for 20 years, covering subjects like Biology, Natural Sciences, and Chemistry. My teaching approach is based on personalization and adaptability to each student, offering dynamic and effective lessons.",
+        politica_privacidad: "Privacy Policy",
+        politica_privacidad_texto: "This website collects personal information through the contact form for the sole purpose of responding to inquiries and providing information about the services offered. The data provided will not be shared with third parties or used for commercial purposes without the user's prior consent.",
+        derechos_autor: "Copyright",
+        derechos_autor_texto: "All content on this website, including texts, images, logos, and teaching materials, is the property of 'Learn Spanish' and is protected by copyright laws. Reproduction, distribution, or modification of any content without the express consent of the author is prohibited.",
+        contacto_derechos: "For more information, you can contact us at:"
     },
     de: {
         title: "Lerne Spanisch mit deiner Lehrerin",
@@ -69,11 +79,14 @@ const translations = {
         conversacion: "Konversationskurse",
         conversacion_desc: "Verbessere deine Flüssigkeit mit realen, praktischen Dialogen.",
         biografia: "Über mich",
-        biografia_texto: "Ich bin eine zertifizierte Spanischlehrerin mit mehr als 5 Jahren internationaler Erfahrung. Ich habe in Argentinien, Neuseeland, China und aktuell in Deutschland gearbeitet. Ich habe an Spanischinstituten in Deutschland unterrichtet und bin zudem Online-Spanisch-Tutorin, sowohl auf Plattformen als auch selbstständig. Meine Ausbildung umfasst Zertifikate des angesehenen Instituto Cervantes. Neben meiner Erfahrung in Spanisch unterrichte ich seit 20 Jahren, in Fächern wie Biologie, Naturwissenschaften und Chemie. Mein Lehransatz basiert auf der Personalisierung und Anpassungsfähigkeit für jeden Studenten, wobei ich dynamischen und effektiven Unterricht biete."
+        biografia_texto: "Ich bin eine zertifizierte Spanischlehrerin mit mehr als 5 Jahren internationaler Erfahrung. Ich habe in Argentinien, Neuseeland, China und aktuell in Deutschland gearbeitet. Ich habe an Spanischinstituten in Deutschland unterrichtet und bin zudem Online-Spanisch-Tutorin, sowohl auf Plattformen als auch selbstständig. Meine Ausbildung umfasst Zertifikate des angesehenen Instituto Cervantes. Neben meiner Erfahrung in Spanisch unterrichte ich seit 20 Jahren, in Fächern wie Biologie, Naturwissenschaften und Chemie. Mein Lehransatz basiert auf der Personalisierung und Anpassungsfähigkeit für jeden Studenten, wobei ich dynamischen und effektiven Unterricht biete.",
+        politica_privacidad: "Datenschutzrichtlinie",
+        politica_privacidad_texto: "Diese Website erhebt personenbezogene Daten über das Kontaktformular, ausschließlich zum Zweck der Beantwortung von Anfragen und der Bereitstellung von Informationen über die angebotenen Dienstleistungen. Die bereitgestellten Daten werden nicht an Dritte weitergegeben oder ohne vorherige Zustimmung des Benutzers für kommerzielle Zwecke verwendet.",
+        derechos_autor: "Urheberrecht",
+        derechos_autor_texto: "Alle Inhalte dieser Website, einschließlich Texte, Bilder, Logos und Lehrmaterialien, sind Eigentum von 'Lerne Spanisch' und durch das Urheberrecht geschützt. Die Vervielfältigung, Verbreitung oder Modifikation jeglicher Inhalte ohne ausdrückliche Zustimmung der Autorin ist untersagt.",
+        contacto_derechos: "Für weitere Informationen können Sie uns kontaktieren unter:"
     }
 };
-
-
 
 function loadLanguage(lang) {
     if (!translations[lang]) lang = "es";  // Si el idioma no existe, por defecto español
