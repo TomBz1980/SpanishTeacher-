@@ -84,8 +84,7 @@ const translations = {
         politica_privacidad_texto: "Diese Website erhebt personenbezogene Daten über das Kontaktformular, ausschließlich zum Zweck der Beantwortung von Anfragen und der Bereitstellung von Informationen über die angebotenen Dienstleistungen. Die bereitgestellten Daten werden nicht an Dritte weitergegeben oder ohne vorherige Zustimmung des Benutzers für kommerzielle Zwecke verwendet.",
         derechos_autor: "Urheberrecht",
         derechos_autor_texto: "Alle Inhalte dieser Website, einschließlich Texte, Bilder, Logos und Lehrmaterialien, sind Eigentum von 'Lerne Spanisch' und durch das Urheberrecht geschützt. Die Vervielfältigung, Verbreitung oder Modifikation jeglicher Inhalte ohne ausdrückliche Zustimmung der Autorin ist untersagt.",
-        contacto_derechos: "Für weitere Informationen können Sie uns kontaktieren unter:"
-    }
+        contacto_derechos: "Für weitere Informationen können Sie uns kontaktieren unter:"    
 };
 
 function loadLanguage(lang) {
